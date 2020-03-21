@@ -10,56 +10,38 @@ export default new Vuex.Store({
     activePomo: null,
     pomos: [
       {
-        todo: "As a user I want to be able to add and remove tasks.",
+        todo: "Work on Pomodoro App",
         count: 0,
         complete: false
       },
       {
         todo:
-          "As a user I want to be able to select a task and start a Pomodoro timer.",
+          "Design first version of personal portfolio.",
         count: 0,
         complete: false
       },
       {
-        todo: "As a user I want to be able to pause the timer.",
+        todo: "Play Animal Crossing",
         count: 0,
         complete: false
       },
       {
-        todo: "As a user I want to be able to reset the timer.",
-        count: 0,
-        complete: false
-      },
-      {
-        todo:
-          "As a user I want to know how many pomodoros have been completed for a selected task.",
+        todo: "Develop first version of personal portfolio (Webflow)",
         count: 0,
         complete: false
       },
       {
         todo:
-          "As a user I want to be able to take a 5 min break after a Pomodoro.",
+          "Write speech for graduation ceremonies",
         count: 0,
         complete: false
       },
       {
         todo:
-          "As a user I want to be able to take a 20 min break after 4 pomodoros.",
+          "Write the first chapter of my novel",
         count: 0,
         complete: false
       },
-      {
-        todo:
-          "As a user I want to know how many pomodoros I have worked for task.",
-        count: 0,
-        complete: false
-      },
-      {
-        todo:
-          "As a user I want to know how many total pomodoros I have competed.",
-        count: 0,
-        complete: false
-      }
     ]
   }
 });

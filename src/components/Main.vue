@@ -55,7 +55,7 @@
 
           <v-card>
             <v-card-title>
-              <span class="headline">New Task</span>
+              <span class="headline">Create or Update Task</span>
             </v-card-title>
 
             <v-card-text>
@@ -73,7 +73,7 @@
             <v-card-actions>
               <v-spacer></v-spacer>
               <v-btn color="blue darken-1" text @click="close">Cancel</v-btn>
-              <v-btn color="blue darken-1" @click="save" dark>Update List</v-btn>
+              <v-btn color="blue darken-1" @click="save" dark>Update </v-btn>
             </v-card-actions>
           </v-card>
         </v-dialog>
@@ -299,5 +299,19 @@ export default {
 
 .add-button-container {
   padding: 0px 16px;  
+}
+
+.v-dialog {
+  font-family: 'Apercu', sans-serif;
+  font-weight: 300;
+}
+
+.v-dialog .v-card__title .headline{
+  font-family: 'Apercu', sans-serif !important;
+  font-weight: 300;
+}
+
+.v-text-field__details {
+  display: none;
 }
 </style>
